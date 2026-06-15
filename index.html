@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstaChatbot - AI Customer Support</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="public/favicon.png" />
     
     <!-- Mengganti Google Font ke Plus Jakarta Sans (Maksimal ketebalan 600/Semibold) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,9 +100,15 @@
         <header id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out bg-transparent">
             <nav id="nav-container" class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center transition-all duration-300 ease-in-out">
                 
-                <!-- Bagian Kiri: Logo -->
-                <div class="flex items-center gap-2 text-white transition-colors duration-300" id="logo">
-                    <span class="text-2xl font-semibold tracking-wide">AstaChatbot</span>
+                <div class="flex items-center gap-3 text-white transition-colors duration-300" id="logo">
+                    <img
+                        src="/src/assets/logochat.png"
+                        alt="AstaChatbot Logo"
+                        class="w-6 h-6 object-contain"
+                    />
+                    <span class="text-2xl font-semibold tracking-wide">
+                        AstaChatbot
+                    </span>
                 </div>
 
                 <!-- Bagian Kanan: Menu Links & Button Sign Up -->
@@ -247,8 +254,12 @@
                         <div class="md:col-span-6 lg:col-span-8">
                             <!-- Diubah dari font-bold ke font-semibold -->
                             <div class="flex items-center gap-2 text-2xl font-semibold mb-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z" opacity="0.9"/></svg>
-                                AstaChatbot
+                                <img
+                                    src="/src/assets/logochat.png"
+                                    alt="AstaChatbot Logo"
+                                    class="w-8 h-8 object-contain"
+                                />
+                                <span>AstaChatbot</span>
                             </div>
                             <p class="text-gray-400 text-base max-w-sm leading-relaxed">
                                 Your always-on AI support assistant — ready to help your customers anytime, anywhere.<br>
