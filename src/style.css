@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Mendefinisikan animasi kedip tajam untuk kursor | */
+@keyframes blinkSharp {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+.animate-blink-sharp {
+    animation: blinkSharp 0.8s step-end infinite;
+}
