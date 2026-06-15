@@ -230,7 +230,7 @@
                 <div class="asta-header-top">
                     <div class="asta-header-info">
                         <div class="asta-avatar-wrapper">
-                            <img src="public/logochat.png" alt="Support Agent" class="asta-avatar">
+                            <img src="https://raw.githubusercontent.com/fachryananda-astatek/chatbot-astatek-web/69c4d1919c02720acf124b2eb0e48d3d621aa11f/src/assets/logochat.png" alt="Support Agent" class="asta-avatar">
                             <span class="asta-online-status"></span>
                         </div>
                         <span class="asta-title">Chat with us</span>
@@ -268,7 +268,7 @@
                     </button>
                 </div>
                 <div class="asta-powered">
-                    POWERED BY <img src="public/astatek_logo.png" alt="Astatek Logo">
+                    POWERED BY <img src="https://raw.githubusercontent.com/fachryananda-astatek/chatbot-astatek-web/69c4d1919c02720acf124b2eb0e48d3d621aa11f/src/assets/astatek_logo.png" alt="Astatek Logo">
                 </div>
             </div>
         </div>
