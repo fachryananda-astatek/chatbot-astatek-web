@@ -360,7 +360,7 @@
         messagesArea.scrollTop = messagesArea.scrollHeight;
 
         try {
-            // const currentDomain = window.location.hostname.replace('www.', '');
+            const currentDomain = window.location.hostname.replace('www.', '');
             // const currentDomain = "astatek.id";
 
             const response = await fetch('https://devastatek-chatbot-astatek.hf.space/api/chat', {
