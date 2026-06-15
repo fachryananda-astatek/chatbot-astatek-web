@@ -230,7 +230,7 @@
                 <div class="asta-header-top">
                     <div class="asta-header-info">
                         <div class="asta-avatar-wrapper">
-                            <img src="/logochat.png" alt="Support Agent" class="asta-avatar">
+                            <img src="public/logochat.png" alt="Support Agent" class="asta-avatar">
                             <span class="asta-online-status"></span>
                         </div>
                         <span class="asta-title">Chat with us</span>
@@ -268,7 +268,7 @@
                     </button>
                 </div>
                 <div class="asta-powered">
-                    POWERED BY <img src="/astatek_logo.png" alt="Astatek Logo">
+                    POWERED BY <img src="public/astatek_logo.png" alt="Astatek Logo">
                 </div>
             </div>
         </div>
