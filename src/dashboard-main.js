@@ -64,7 +64,7 @@ async function fetchWidgets() {
                 <div class="relative group">
                     <div class="bg-white border border-gray-200 shadow-sm rounded-xl p-3 pr-10">
                         <code class="text-[11px] text-gray-600 font-mono break-all">
-                            &lt;script src="http://localhost:5173/widget.js" data-uid="${currentUser.id}" defer&gt;&lt;/script&gt;
+                            &lt;script src="https://astachatbot.vercel.app/widget.js" data-uid="${currentUser.id}" defer&gt;&lt;/script&gt;
                         </code>
                     </div>
                     
